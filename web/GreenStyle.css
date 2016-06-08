@@ -1,0 +1,550 @@
+/* 
+    Created on : Feb 6, 2015, 10:15:32 AM
+    Author     : sjf14670
+*/
+
+/*
+This is the CSS file for the Green Power webpages.
+
+Colors:
+    button-green(the darker green that initially is the background of the buttons)
+        -R:35 G:179 B:19
+        -HEX: #23B313
+    hover-green(the lighter green that is the background of the buttons when you hover)
+        -R:71 G:234 B:53
+        -HEX: #47EA35
+*/
+
+
+/*
+This is the format for tables
+    -Tables are used to easily layout the page.
+*/
+table
+{
+    border: none;
+    text-wrap: none;
+    table-layout: auto;
+}
+
+/*
+This sets the background color and image. The image is set to not repeat, that 
+way the colored background will fill the rest of the page leaving a banner 
+effect. The background size is set to 100% so that it resizes with the page.
+*/
+.background
+{
+    background: url("Images/BenFranklin.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    //background-size: 100%;
+    //background-repeat: no-repeat;
+    background-color: rgba(35, 179, 19, 0.5);
+    
+}
+
+/*
+This sets the size of the logo
+*/
+.logo
+{
+    width: 270px;
+    height: 206px;
+}
+.logoLogin
+{
+    width: 170px;
+    height: 126px;
+}
+/*
+This is the class for the buttons at the top of the page
+    -Color is set to black and text-decoration is set to none to override 
+     the a tag so that it doesn't show up purple when visited or underlined
+     like normal links would
+Second is a smaller version of the buttons to put in the pages instead of the
+larger version which is for the main banner of buttons.
+*/
+.buttons
+{
+    //border: 1px solid black;
+    padding: 5px;
+    background-color: #23B313;
+    font-size: 30px;
+    font-family: euphemia;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    text-wrap: none;
+    box-shadow: 2px 2px 2px dimgray;
+    width: 270px;
+    text-align: center;
+}
+.buttons2
+{
+    border: none;
+    padding: 5px;
+    background-color: #23B313;
+    font-size: 20px;
+    font-family: euphemia;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    text-wrap: none;
+    box-shadow: 2px 2px 2px dimgray;
+    font-weight: normal;
+}
+
+/*
+These are various overrides to get rid of how standard links behave when hovered
+over or visited.
+*/
+.buttons:hover, .buttons:visited:hover
+{
+    //border: 1px solid black;
+    padding: 5px;
+    background-color: #47EA35;
+    font-size: 30px;
+    font-family: euphemia;
+    color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    text-wrap: none;
+    box-shadow: 2px 2px 2px darkgray;
+    width: 270px;
+    text-align: center;
+}
+.buttons2:hover
+{
+    color: black;
+    background-color: #47EA35;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    font-family: euphemia;
+    text-decoration: none;
+    border-radius: 15px;
+    text-wrap: none;
+    box-shadow: 2px 2px 2px dimgray;
+    font-weight: normal;
+}
+a:hover, a:visited:hover
+{
+    font-family: euphemia;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+a:visited, a
+{
+    font-family: euphemia;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}
+
+/*
+The following titles and titles2 are 2 styles for titles on the pages. The only
+difference is that the top one is center aligned and the bottom one is right 
+aligned (used on the builing settings page).
+*/
+.titles
+{
+    text-decoration: underline; 
+    text-decoration-color: #23B313;
+    text-align: center;
+    -moz-text-decoration-color: #23B313;
+    font-family: euphemia;
+    font-size: 24px;
+    color: black;   
+}
+.titles2
+{
+    text-decoration: underline; 
+    text-decoration-color: #23B313;
+    text-align: right;
+    -moz-text-decoration-color: #23B313;
+    font-family: euphemia;
+    font-size: 24px;
+    color: black; 
+}
+.titles3
+{
+    color:black;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    line-height: 25px;
+    font-family: euphemia;
+    font-weight: bold;    
+}
+.titles4
+{
+    text-align: center;
+    font-family: euphemia;
+    font-size: 21px;
+    color: black;  
+}
+/*
+The following are 5 variations of the basic text used in the entire webpage. 
+Variations just change box size, alignment, etc.
+*/
+.basic
+{
+    font-family: euphemia;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+.basic2
+{
+    font-family: euphemia;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+.basic3
+{
+    font-family: euphemia;
+    font-size: 18px;
+    color: black;
+    width: 200px;
+}
+.basic4
+{
+    font-family: euphemia;
+    font-size: 18px;
+    color: black;
+    vertical-align: top;
+}
+.basic5
+{
+    font-family: euphemia;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    background-color: rgba(35, 179, 19, 0.7);
+    width: 300px;
+}
+.basic6
+{
+    font-family: euphemia;
+    font-size: 18px;
+    color: black;
+    width: 207px;
+}
+.basic7
+{
+    width: 250px;
+    height: 100px;
+    font-family: euphemia;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+.basic8
+{
+    font-family: euphemia;
+    font-size: 15px;
+    color: black;
+}
+
+/*
+The following are styles for table layouts. The first is used on the tables
+on the main page so that they have a black border. The second sets the width
+and has no border. The first three vertically align the content to the top. The
+last one just sets the width of it.
+*/
+.tables
+{
+    vertical-align: top;
+    //border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px dimgray;
+}
+.tables2
+{
+    vertical-align: top;
+    border-radius: 15px;
+}
+.tables3
+{
+    vertical-align: top;
+    background-color: rgba(255, 255, 255, 0.85);
+    //border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px dimgray;
+    padding: 25px;
+    width: 400px;
+}
+.tables4
+{
+    vertical-align: top;
+    //border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px dimgray;
+    width: 295px;
+    height: 450px;
+    text-align: center;
+}
+.tables5
+{
+    vertical-align: top;
+    //border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 2px 2px 2px dimgray;
+}
+.tables6
+{
+    vertical-align: central;
+    //border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px dimgray;
+    width: 295px;
+    height: 450px;
+    text-align: center;
+}
+/*
+This is used to pad the tables that are the layout of the pages
+*/
+.padMe
+{
+    padding: 20px;
+}
+
+/*
+These are used for boxes inside tables so that they can be separated without
+making a new row or column.
+Boxxy2 is used to hold the logo on the tips page
+*/
+.boxxy
+{
+    //border: 1px solid black;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    font-family: euphemia;
+    font-size: 24px;
+    color: black; 
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px dimgray;
+}
+.boxxy2
+{
+    //border: 1px solid black;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    text-decoration: underline; 
+    text-decoration-color: #23B313;
+    text-align: center;
+    -moz-text-decoration-color: #23B313;
+    font-family: euphemia;
+    font-size: 24px;
+    color: black; 
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px dimgray;
+    width: 280px;
+}
+.boxxy3
+{
+    width: 280px;
+}
+.boxxyGraph
+{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    font-family: euphemia;
+    font-size: 24px;
+    color: black; 
+    padding: 10px;
+    border-radius: 0px 15px 15px 15px;
+    box-shadow: 2px 2px 2px dimgray;
+    vertical-align: top;
+    height: 600px;
+}
+.boxxyLogo
+{
+    text-align: center;
+    background-color: white;
+    text-align: center;
+    font-family: euphemia;
+    font-size: 24px;
+    color: black; 
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px dimgray;
+}
+
+/*
+This is a buffer to put between columns and cells in tables
+*/
+#buffer
+{
+    width: 10px;
+    height: 10px;
+}
+/*
+This is the title front for Greene tips
+*/
+.greene
+{
+    font-family: euphemia;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #23B313;
+    text-decoration-style: double;
+    -moz-text-decoration-color: #23B313;
+    -moz-text-decoration-style: double;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/*
+The following are used to style selection boxes. The only difference is they
+are set to different sizes.
+*/
+.selector
+{
+    width: 100px;
+    font-family: euphemia;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+.selector2
+{
+    width: 230px;
+    height: 130px;
+    font-family: euphemia;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+.selector3
+{
+    width: 250px;
+    font-family: euphemia;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+/*
+This is used on the get data page to set the width of table columns
+*/
+#data
+{
+    width: 250px;
+}
+
+/*
+This is used to style and size the text areas.
+*/
+textarea
+{
+    width: 250px;
+    height: 100px;
+    resize: none;   
+}
+
+/*
+This is the style for the datepicker
+*/
+.datePicker
+{
+    font-family: euphemia;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    text-wrap: none;
+}
+/*
+This sets the size of the graph on the graphs page
+*/
+.graph
+{
+    min-width: 800px;
+}
+
+html, body 
+{
+    height: 100%;
+}
+.wrapper 
+{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+}
+.footer 
+{
+    height: 4em;
+}
+
+.resize
+{
+    width: 150px;
+    height: 150px;
+}
+
+#login_header
+{
+    background-color: #23B313;
+}
+
+
+#tabs ul 
+{
+	list-style: none;
+	padding:0;
+	margin:0;
+}
+#tabs li 
+{
+	display: inline-block;
+}
+#tabs li a 
+{
+	padding: 0 1em;
+}
+.selected 
+{
+	padding-bottom: 1px; 
+        background-color: rgba(255, 255, 255, 0.85);
+        border-radius: 15px 15px 0px 0px;
+        width: 90px;
+}
+.unselected
+{
+        padding-bottom: 1px; 
+	background: gray;
+        border-radius: 15px 15px 0px 0px;
+        width: 90px;
+}
+.tabs, .tabs:hover, .tabs:hover:visited
+{
+    font-family: euphemia;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+#widgetContainer
+{
+    width: 290px;
+    height: 290px;
+}

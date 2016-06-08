@@ -1,0 +1,216 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 20, 2015, 1:07:59 PM
+    Author     : drl92822
+*/
+h3{
+    color:white;
+    position:relative;
+    line-height: 50px;
+}
+
+#tools_selection_container{    
+    font-family: "Ariel", Helvetica, san-serif;
+    font-weight: bold;
+    color: black;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+#tools_container{
+    margin-top: 10%;
+    width: 400px;
+    height: 200px;
+}
+
+.title_bar_container{
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    background-color: #5A0000;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;    
+
+}
+.content_title_bar{
+    background-color: #5A0000;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    height:25px;
+}
+
+.title{
+    color:white;
+    margin-left:15px;
+    margin-bottom: 10px;
+    line-height: 25px;
+    font-family: "Ariel", Helvetica, san-serif;
+    font-weight: bold;
+
+}
+
+.content_container{
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid;
+    border-radius: 25px; 
+    background-color: white;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+/*button,input[type = "submit"] {
+    background: #5a0000;
+    background-image: -webkit-linear-gradient(top, #5a0000, #8c0e0e);
+    background-image: -moz-linear-gradient(top, #5a0000, #8c0e0e);
+    background-image: -ms-linear-gradient(top, #5a0000, #8c0e0e);
+    background-image: -o-linear-gradient(top, #5a0000, #8c0e0e);
+    background-image: linear-gradient(to bottom, #5a0000, #8c0e0e);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    padding: 5px 20px 5px 20px;
+    border:2px solid #5A0000;
+
+}*/
+
+/*button:hover,input[type = "submit"]:hover {
+    //background: #fc3c3c;
+    background-image: -webkit-linear-gradient(top, #fc3c3c, #5a0000);
+    background-image: -moz-linear-gradient(top, #fc3c3c, #5a0000);
+    background-image: -ms-linear-gradient(top, #fc3c3c, #5a0000);
+    background-image: -o-linear-gradient(top, #fc3c3c, #5a0000);
+    background-image: linear-gradient(to bottom, #fc3c3c, #5a0000);
+}*/
+
+th {
+    border: 2px solid darkgray;
+    cursor: pointer;
+}
+
+.table_content{
+    position:relative;
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+#table_titles{
+
+    border-collapse: collapse;	
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: gray;
+    color: white;
+}
+
+#table_data{
+    border-collapse: collapse;	
+    background-color: gainsboro;
+    padding-top: 5px;
+    padding-bottom: 4px;
+}
+
+.execute_button{
+    margin-top: 1em;
+    width: 250px;
+}
+
+button.control_button{
+    width: 225px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 22%;
+}
+
+#control_management_container{
+    margin-top: 10%;
+    width: 400px;
+    height: 450px;
+}
+
+#login_container{
+    margin-top: 10%;
+    width: 400px;
+    height: 350px;
+}
+
+#login_form{
+    font-family: "Ariel", Helvetica, san-serif;
+    font-weight: bold;
+    color: black;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+
+input[type="text"]  {  /* An attribute selector */
+    width: 15em; /*space for user to type */
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+#loginPassword
+{
+    width: 15em; /*space for user to type */
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+/*input[type = "submit"].submit_button{
+    margin-top: 1em;
+    margin-left: 25%;
+    width: 150px;
+}*/
+
+#login_text_container{
+    display:inline-block;
+    text-align: right;
+}
+
+#image_message_container{
+    float: right;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+
+#forgot_password_link{
+    margin-left:70%;
+    font-size: 10px;
+    color:#888888;
+}
+
+.table_container{
+    margin-top:2%;
+    max-height:350px;
+    overflow:auto;
+}
+
+/*button.control_button{
+    width: 225px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 22%;
+}*/
+
+#control_page_container{
+    margin-top: 10%;
+    width: 400px;
+    height: 300px;
+}
